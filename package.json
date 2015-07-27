@@ -20,6 +20,24 @@
     "http",
     "benchmarking"
   ],
+  "maintainers" : [
+		{
+		  "name": "gideoanirex",
+			"email": "gideonrosales@gmail.com"
+	  },
+		{
+			"name": "yamii",
+			"email": "miriamiglesia@gmail.com"
+		},
+		{
+			"name": "vjcagay",
+			"email": "vjcagay@gmail.com"
+		},
+		{
+			"name": "darbiol",
+			"email": "arbiol.daniel0727@gmail.com"
+		}
+  ],
   "author": "Gideon Rosales <gideonrosales@gmail.com> (https://github.com/gideonairex)",
   "license": "MIT",
   "bugs": {
