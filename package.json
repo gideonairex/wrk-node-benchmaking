@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "npm test",
-		"postinstall": "make clean && make install"
+    "postinstall": "make clean && make install"
   },
-	"bin": {
-		"wrk" : "./src/wrk"
-	},
+  "bin": {
+    "wrk": "./src/wrk"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/gideonairex/wrk-node-benchmaking.git"
@@ -20,28 +20,34 @@
     "http",
     "benchmarking"
   ],
-  "maintainers" : [
-		{
-		  "name": "gideoanirex",
-			"email": "gideonrosales@gmail.com"
-	  },
-		{
-			"name": "yamii",
-			"email": "miriamiglesia@gmail.com"
-		},
-		{
-			"name": "vjcagay",
-			"email": "vjcagay@gmail.com"
-		},
-		{
-			"name": "darbiol",
-			"email": "arbiol.daniel0727@gmail.com"
-		}
+  "maintainers": [
+    {
+      "name": "gideoanirex",
+      "email": "gideonrosales@gmail.com"
+    },
+    {
+      "name": "yamii",
+      "email": "miriamiglesia@gmail.com"
+    },
+    {
+      "name": "vjcagay",
+      "email": "vjcagay@gmail.com"
+    },
+    {
+      "name": "darbiol",
+      "email": "arbiol.daniel0727@gmail.com"
+    }
   ],
   "author": "Gideon Rosales <gideonrosales@gmail.com> (https://github.com/gideonairex)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/gideonairex/wrk-node-benchmaking/issues"
   },
-  "homepage": "https://github.com/gideonairex/wrk-node-benchmaking"
+  "homepage": "https://github.com/gideonairex/wrk-node-benchmaking",
+  "dependencies": {
+    "async": "^1.4.0",
+    "cli-table": "^0.3.1",
+    "colors": "^1.1.2",
+    "glob": "^5.0.14"
+  }
 }
