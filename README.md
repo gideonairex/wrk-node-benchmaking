@@ -2,7 +2,9 @@
 Wrk node.js http benchmarking tool. A framework wrapper for wrk benchmarking. Instead if globally running it. This will be implemented in gulp task runners.
 
 ## Run
+```
 ./node_modules/.bin/wrk <options> <url>
+```
 
 ## Usage
 ```javascript
