@@ -1,1 +1,3 @@
-require( './lib/benchmarker' );
+'use strict';
+
+module.exports = require( './lib' );
