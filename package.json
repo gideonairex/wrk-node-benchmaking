@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "npm test",
-    "postinstall": "make clean && make install"
+    "postinstall": "make clean && make install",
+    "eslint": "eslint",
+    "jscs": "jscs"
   },
   "bin": {
     "wrk": "./src/wrk"
@@ -60,5 +62,10 @@
   "_id": "wrk-node@1.0.0",
   "_shasum": "4adea65f23466068ef2125e745b4989bc068465f",
   "_from": "../../../../../var/folders/38/d9qr84nj421_5hplccbz0fjm0000gn/T/npm-43802-57f61112/1438147690181-0.06851952918805182/644c85e53b0f1c7ef789bf1237177cbb3c6d9c04",
-  "_resolved": "git+https://git@github.com:gideonairex/wrk-node-benchmarking#644c85e53b0f1c7ef789bf1237177cbb3c6d9c04"
+  "_resolved": "git+https://git@github.com:gideonairex/wrk-node-benchmarking#644c85e53b0f1c7ef789bf1237177cbb3c6d9c04",
+  "devDependencies": {
+    "eslint": "^0.24.1",
+    "jscs": "^2.0.0",
+    "sinet-coding-conventions": "^1.31.0"
+  }
 }

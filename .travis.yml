@@ -1,0 +1,14 @@
+language: node_js
+
+node_js:
+  - "0.10.28"
+
+before_install:
+  - npm install -g npm
+
+install:
+  - npm install
+
+script:
+  - npm run jscs -- ./lib
+  - npm run eslint -- --reset --eslintrc ./lib
